@@ -108,19 +108,19 @@ extension UIViewController {
         }
     }
     
-    open func keyboardWillShowWithFrame(_ frame: CGRect) {
+   @objc open func keyboardWillShowWithFrame(_ frame: CGRect) {
         
     }
     
-    open func keyboardDidShowWithFrame(_ frame: CGRect) {
+   @objc open func keyboardDidShowWithFrame(_ frame: CGRect) {
         
     }
     
-    open func keyboardWillHideWithFrame(_ frame: CGRect) {
+   @objc open func keyboardWillHideWithFrame(_ frame: CGRect) {
         
     }
     
-    open func keyboardDidHideWithFrame(_ frame: CGRect) {
+   @objc open func keyboardDidHideWithFrame(_ frame: CGRect) {
         
     }
     
